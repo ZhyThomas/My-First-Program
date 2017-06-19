@@ -1,0 +1,47 @@
+body {
+    background-image: url(../img/backimg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+p {
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+}
+
+input {
+    height: 50px;
+    width: 200px;
+    margin-right: 40px;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+button {
+    display: block;
+    width: 80px;
+    height: 40px;
+    margin: 20px auto;
+}
+
+.iptline {
+    margin: 10px auto;
+    width: 400px;
+    text-align: right;
+}
+
+.loginbt {
+    background-color: #8ce382;
+}
+
+.regisbt {
+    background-color: #f60d73;
+}
+
+label {
+    margin-top: -5px;
+    margin-right: 15px;
+    vertical-align: middle;
+}

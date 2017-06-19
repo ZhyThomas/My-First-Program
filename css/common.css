@@ -1,0 +1,22 @@
+html {
+	min-width: 1280px;
+	min-height: 800px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/backimg5.jpg);
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+body {
+    width: 450px;
+    height: 700px;
+    margin: 50px auto;
+    border: #CCC 1px solid;
+
+}
+.fstline{
+    margin-top: 80px;
+    color:red;
+}
