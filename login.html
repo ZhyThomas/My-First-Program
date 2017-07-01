@@ -1,31 +1,31 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!--声明这个网页的文档类型，这个是html5的写法-->  
 <html lang="en">
 
 <head>
     <title>小订猫</title>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"><!-- 这个设置编码为UTF‐8。没有这个设置，可能会出现乱码 -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css/login.css"></link>
+    <link rel="stylesheet" type="text/css" href="css/common.css"></link>
 </head>
 
 <body>
     <p>欢迎登录小订猫</p>
     <hr>
-    <form name="myform" id="form1">
+    <form id="form1" name="myform">
         <p class="iptline fstline">
             <label for="username">用户名:</label>
-            <input type="text" name="username" value="18161053312" id="username" />
+            <input id="username" name="username" type="text" value="18161053312"></input>
         </p>
         <p class="iptline">
             <label for="password">密码:</label>
-            <input type="password" name="password" value="123456" id="password" />
+            <input id="password" name="password" type="password" value="123456"></input>
         </p>
-        <button class="loginbt" type="button" id="logbtn" ">登录</button>
-        <button class="regisbt" type="button" id="regbtn" ">注册</button>
+        <button id="logbtn" class="loginbt" type="button">登录</button>
+        <button id="regbtn" class="regisbt" type="button">注册</button>
+        <button class="regisbt" type="submit">提交测试</button>
     </form>
 </body>
-
-<link rel="stylesheet" type="text/css" href="css/login.css" />
-<link rel="stylesheet" type="text/css" href="css/common.css" />
 <script src="https://cdn.bootcss.com/jquery/1.5.1/jquery.js"></script>
 <script src="js/login.js"></script>
 <script src="js/common.js"></script>
